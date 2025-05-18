@@ -1,4 +1,6 @@
 import uvicorn
+# from dotenv import load_dotenv
+# load_dotenv()
 from starlette.applications import Starlette
 from starlette.responses import HTMLResponse
 from starlette.routing import Route, WebSocketRoute
